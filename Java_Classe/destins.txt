@@ -1,0 +1,12 @@
+Codi: mr1005
+Desti: Muntanyes Vermelles
+Ubicacio: Serra Nevada
+Activitats: Senderisme, Escalada
+Preu: 1800
+---
+Codi: ic0804
+Desti: Illes Coralines
+Ubicacio: Pacific Sur
+Activitats: Busseig, Snorkel
+Preu: 1200
+---
