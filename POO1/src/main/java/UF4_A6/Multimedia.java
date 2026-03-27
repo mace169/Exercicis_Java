@@ -1,0 +1,61 @@
+package UF4_A6;
+
+abstract class Multimedia {
+
+    // Atributs
+    private String titol;
+    private String autor;
+    private String format;
+    private int durada;
+
+    // Constructor
+    public Multimedia(String titol, String autor, String format, int durada) {
+        this.titol = titol;
+        this.autor = autor;
+        this.format = format;
+        this.durada = durada;
+    }
+
+    //Getters i setters
+    public String getTitol() {
+        return titol;
+    }
+
+    public void setTitol(String titol) {
+        this.titol = titol;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getFormat() {
+        return format;
+    }
+
+    public void setFormat(String format) {
+        this.format = format;
+    }
+
+    public int getDurada() {
+        return durada;
+    }
+
+    public void setDurada(int durada) {
+        this.durada = durada;
+    }
+
+    // Mètode toString per imprimir
+    @Override
+    public String toString() {
+        return "Titol: " + this.titol
+                + "\nAutor: " + this.autor
+                + "\nFormat: " + this.format
+                + "\nDurada: " + this.durada;
+    }
+
+}
